@@ -5,11 +5,11 @@
 
 /**
  * struct listint_s - singly linked list
+ * @n: integer
+ * @next: points to the next node
  *
- * @n: int
- * @next: next node pointer
+ * Description: singly linked list node structure
  *
- * Description: struct of linked list
  */
 typedef struct listint_s
 {
@@ -18,8 +18,8 @@ typedef struct listint_s
 } listint_t;
 
 size_t print_listint(const listint_t *h);
-int check_cycle(listint_t *list);
-void free_listint(listint_t *head);
 listint_t *add_nodeint(listint_t **head, const int n);
+void free_listint(listint_t *head);
+int check_cycle(listint_t *list);
 
-#endif
+#endif /* LISTS_H */
