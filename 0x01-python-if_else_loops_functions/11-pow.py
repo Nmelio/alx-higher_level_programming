@@ -3,6 +3,6 @@ def pow(a, b):
 #    x = a**b
 #    return x
     x = a
-    for range(0,b):
+    for y in range(0,b):
         x *= a
     return x
