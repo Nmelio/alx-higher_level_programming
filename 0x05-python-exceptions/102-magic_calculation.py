@@ -1,5 +1,6 @@
 #!/bin/usr/python3
 
+
 def magic_calculation(a, b):
     t = 0
     for u in range(1, 3):
@@ -11,4 +12,4 @@ def magic_calculation(a, b):
         except:
             t = b + a
             break
-        return (t)
+    return (t)
