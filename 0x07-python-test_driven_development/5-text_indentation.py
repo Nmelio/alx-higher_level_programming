@@ -4,6 +4,7 @@
 
 
 def text_indentation(text):
+    """L"""
     if not isinstance(text, str):
         raise TypeError("text must be a string")
 

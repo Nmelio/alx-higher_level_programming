@@ -4,6 +4,7 @@
 
 
 def matrix_mul(m_a, m_b):
+    """B"""
     if m_a == [] or m_a == [[]]:
         raise ValueError("m_a can't be empty")
     if m_b == [] or m_b == [[]]:
