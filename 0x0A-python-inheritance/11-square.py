@@ -1,5 +1,8 @@
+#!/usr/bin/python3
+"""Function for rectangle"""
 
 Rectangle = __import__('9-rectangle').Rectangle
+"""importing another function"""
 
 
 class Square(Rectangle):
