@@ -5,6 +5,15 @@ my_rectangle = Rectangle(2, 4)
 print("Area: {} - Perimeter: {}".format(my_rectangle.area(), my_rectangle.perimeter()))
 
 print(str(my_rectangle))
+print("--")
+print(my_rectangle)
+print("--")
+print(repr(my_rectangle))
+print("--")
+print(hex(id(my_rectangle)))
+print("--")
+print("______")
+
 print(repr(my_rectangle))
 
 print("--")
